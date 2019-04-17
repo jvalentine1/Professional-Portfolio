@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+.landing {
+    margin-top: 0;
+    height:100vh;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/cW5lDBG/videoblocks-abstract-programming-code-moves-in-the-camera-software-development-concept_s0fm20jshg_thumbnail-full01.png);
+}
+
+h1 {
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+}
+
+h2 {
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.name-text {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.job-text {
+    margin-top: 30px;
+}
+
+.job-lower {
+    text-align: right;
+    margin-top: 15px;
+}
+
+
+.open-btn {
+    margin-top: 50px;
+}
+
+.start-btn {
+    color:black;
+    background-color: ivory;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:10px;
+    border: solid 1px black;
+    text-decoration: none;
+    
+}
+
+.start-btn:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.about-me{
+    height: 100vh;
+}
