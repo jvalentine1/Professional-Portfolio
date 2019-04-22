@@ -312,7 +312,11 @@ h2 {
     }
 }
 
-@media screen and (max-width:768) {
+@media screen and (max-width:769px) and (max-height:1024px) {
+    .head-hide {
+        margin-bottom: 100px;
+    }
+
     .name-text {
         margin-top: 400px;
     }
