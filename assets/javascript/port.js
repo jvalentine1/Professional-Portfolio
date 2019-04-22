@@ -36,7 +36,7 @@ function job1Render() {
     jobDiv.html(fsH2);
     
     $(".job").html(jobDiv);
-
+    
     $("#fullStack-glide").animate({ 
         marginLeft: "+=42.5%",
     }, 800 );
@@ -69,9 +69,7 @@ function buttonRender() {
 
     $(".open-btn").html(a1);
 
-    $(".start-btn").animate({ 
-        marginLeft: "+=46%",
-    }, 800 );
+    $(".start-btn").addClass("image-host-fade");
 }
 
 setTimeout(openPage, 200);

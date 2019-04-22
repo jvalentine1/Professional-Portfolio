@@ -4,6 +4,7 @@
 .landing {
     margin-top: 0;
     height:100vh;
+    width:100%;
     background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/cW5lDBG/videoblocks-abstract-programming-code-moves-in-the-camera-software-development-concept_s0fm20jshg_thumbnail-full01.png);
 }
 
@@ -36,6 +37,7 @@ h2 {
 
 .open-btn {
     margin-top: 50px;
+    text-align: center;
 }
 
 .start-btn {
@@ -140,19 +142,37 @@ h2 {
     text-align: center;
 }
 
+.icons-left {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    text-align: center;
+}
+
 #icon-1 {
-    height: 10em;
-    width:10em;
+    height: 5em;
+    width:5em;
+    margin-top: 110px;
 }
 
 #icon-2 {
-    height: 10em;
-    width:10em;
+    height: 3em;
+    width:4em;
+    margin-top: 70px;
+}
+
+#icon-3 {
+    height: 5em;
+    width:5em;
+    margin-top: 60px;
 }
 
 .tag {
     color: rgb(0, 204, 204);
     border-radius: 20%;
+}
+
+#tag-pad {
+    padding-top:15px;
 }
 
 .image-host-fade {
@@ -171,7 +191,6 @@ h2 {
     line-height: 1.5;
     padding:40px;
     border-radius: 20%;
-    /* margin-top: -25px; */
     margin-left: 30%; 
 }
 
@@ -187,7 +206,7 @@ h2 {
     grid-template-rows: auto;
     align-content: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .img1 {
@@ -232,24 +251,69 @@ h2 {
     grid-column-start: 2;
     grid-column-end: 2;
     text-align: center;
+    background-color: black;
+    color: aqua;
+    padding:10px;
+    border-radius: 20%; 
 }
 
 .text2 {
     grid-column-start: 4;
     grid-column-end: 4;
     text-align: center;
-}
-
-.port-text {
     background-color: black;
     color: aqua;
     padding:10px;
-    border-radius: 20%;
-
-    
+    border-radius: 20%; 
 }
+
+.port-title {
+    text-decoration: underline;
+}
+
+/* .title-animate {
+    -webkit-animation: slide 1s;
+} */
 
 @keyframes fadein {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+/* @keyframes slide {
+    from {margin-left: 0;}
+    to {text-align: center;}
+} */
+
+@media screen and (max-width:980px) {
+    .job {
+        margin-left: -7%;
+    }
+
+    .job-lower {
+        margin-right: -3.5%;
+    }
+
+    .image-host {
+        margin-top:3em;
+    }
+
+    #my-image {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width:60%;
+        margin-left: 20%;
+    }
+
+    .bio-host {
+        width:70%;
+        margin-left:20%;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:768) {
+    .name-text {
+        margin-top: 400px;
+    }
 }
