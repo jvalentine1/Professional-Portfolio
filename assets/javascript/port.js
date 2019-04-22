@@ -175,3 +175,37 @@ $("#pro-4").hover( function(){
 $("#pro-4").mouseleave(function(){
     $(this).removeClass("pro-hover");
 });
+
+// on click functions for portfolio projects
+
+$("#pro-1").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/GifTastic/';
+});
+
+$("#pro-2").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/TriviaGame/';
+});
+
+$("#pro-3").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/word-guess-game/';
+});
+
+$("#pro-4").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/unit-4-game/';
+});
+
+$(".pro-1").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/GifTastic/';
+});
+
+$(".pro-2").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/TriviaGame/';
+});
+
+$(".pro-3").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/word-guess-game/';
+});
+
+$(".pro-4").on("click", function() {
+    window.location.href='https://jvalentine1.github.io/unit-4-game/';
+});
