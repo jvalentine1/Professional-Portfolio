@@ -6,7 +6,7 @@ var count = 0;
 var nameElement = $("<h1>");
 
 
-
+//
 function openPage() {
     setInterval(nameRender, 50);
 }
@@ -126,6 +126,7 @@ $(document).on("click", "#nav", function(event){
     
 });
 
+//Portfolio Page
 $(window).on('scroll', function() {
     var y_scroll_pos = window.pageYOffset;
     var scroll_pos_test = 1100;

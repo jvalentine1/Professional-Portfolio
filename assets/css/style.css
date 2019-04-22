@@ -1,7 +1,11 @@
 * {
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
+
+body {
+    background-color: ivory;
+}
+
 .landing {
     margin-top: 0;
     height:100vh;
@@ -290,4 +294,138 @@ h2 {
 @keyframes fadein {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+@media screen and (min-width:375px) {
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 65px;
+    }
+
+    .name-text {
+        margin-top: 500px;
+    }
+
+    .job {
+        margin-left: -12%;
+        margin-top:75px;
+    }
+
+    .job-lower {
+        margin-left: 14%;
+    }
+
+    .open-btn {
+        margin-top: 200px;
+    }
+
+    .start-btn {
+        font-size: 40px;
+    }
+
+    .image-host {
+        margin-top: 15em;
+    }
+
+    #my-image {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        width:100%;
+        height:30em;
+        margin-bottom: 50px;
+    }
+
+    .icons {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        text-align: center;
+    }
+
+    .icons-left {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        text-align: left;
+    }
+
+    .icons-right {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        text-align: right;
+    }
+
+    .bio-host {
+        width:75%;
+        margin-left:12.5%;
+        margin-top: 125px;
+        font-size: 37px;
+        line-height: 1.7;
+        padding: 55px;
+    }
+
+    .img1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 100%;
+        text-align: center;
+        margin-left: 70px;
+    }
+
+    .img2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        width: 100%;
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .text1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 100%;
+        text-align: center;
+        margin-left: 70px;
+        margin-top: 25px;
+        font-size:30px;
+        line-height: 1.5;
+    }
+
+    .text2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        width: 100%;
+        text-align: center;
+        margin-left: 120px;
+        margin-top: 25px;
+        font-size:30px;
+        line-height: 1.5;
+    }
+
+    .img1 img {
+        height:400px;
+        width:100%;
+        border-radius: 30%;
+    }
+
+    .img2 img {
+        height:400px;
+        width:100%;
+        border-radius: 30%;
+    }
+
+    #bottom-row {
+        margin-top: 70px;
+    }
+
+    #nav {
+        font-size:35px;
+        padding:30px;
+    }
+
+    #nav2 {
+        font-size:35px;
+        padding:30px;
+    }
 }
