@@ -296,15 +296,7 @@ h2 {
     to {opacity: 1;}
 }
 
-/* @media screen and (max-width:980px) {
-    .job {
-        margin-left: -8%;
-    }
 
-    .job-lower {
-        margin-left:5%;
-    }
-} */
 
 @media screen and (max-width:440px) {
     h1 {
@@ -315,17 +307,13 @@ h2 {
         font-size: 30px;
     }
 
-    /* .name-text {
-        margin-top: 500px;
-    } */
-
     .job {
         margin-right: 23%;
         margin-top:40px;
     }
 
     .job-lower {
-        margin-left: 5%;
+        margin-left: 11%;
     }
 
     .open-btn {
@@ -335,10 +323,6 @@ h2 {
     .start-btn {
         font-size: 15px;
     }
-
-    /* .image-host {
-        margin-top: 15em;
-    } */
 
     #my-image {
         grid-column-start: 2;
@@ -463,3 +447,5 @@ h2 {
         padding:10px;
     }
 }
+
+

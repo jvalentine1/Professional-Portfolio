@@ -1,7 +1,7 @@
 //Global variables for landing page
 var name = "Jacob Valentine";
 var fullStack = "Full-Stack ";
-var webDev = "Web-Developer";
+var webDev = "Developer";
 var count = 0;
 var nameElement = $("<h1>");
 
@@ -56,7 +56,7 @@ function job2Render() {
     $(".job-lower").html(jobDiv2);
 
     $("#webDev-glide").animate({ 
-        marginRight: "+=38%",
+        marginRight: "+=42%",
     }, 800 );
 }
 
