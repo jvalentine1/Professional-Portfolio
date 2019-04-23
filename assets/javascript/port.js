@@ -62,7 +62,7 @@ function job2Render() {
 
 function buttonRender() {
     
-    var a1 = $("<a>");
+    var a1 = $("<button>");
     a1.addClass("start-btn");
     // a1.attr("href", "#about");
     a1.html("About Me &#8595;");
