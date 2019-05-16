@@ -71,7 +71,7 @@ h2 {
     background-color: black;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(6, 16.66%);
     grid-template-rows: auto;
     align-content: center;
     justify-content: center;
@@ -85,12 +85,50 @@ h2 {
     width:100%;
 }
 
-#nav {
+#link-1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: left;
+    justify-self: left;
+    background-color:ivory;
+    border-radius:50%;
+    padding:5px;
+    margin-top:15px;
+    margin-bottom:-31px;
+}
+
+#link-2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    align-self: center;
+    justify-self: center;
+    background-color:ivory;
+    border-radius:50%;
+    padding:5px;
+    margin-top:-15px;
+}
+
+#res {
     color: aqua;
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
     align-self: right;
     justify-self: right;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#res:hover {
+    cursor: pointer;
+    font-weight: 800;
+}
+
+#nav {
+    color: aqua;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: center;
     font-size: 20px;
     padding: 15px;
 }
@@ -102,8 +140,8 @@ h2 {
 
 #nav2 {
     color: aqua;
-    grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-start: 6;
+    grid-column-end: 6;
     align-self: left;
     justify-self: left;
     font-size: 20px;
@@ -224,7 +262,7 @@ h2 {
 }
 
 .img1 img {
-    height:175px;
+    height:150px;
     width:100%;
     border-radius: 30%;
 }
@@ -240,7 +278,7 @@ h2 {
 }
 
 .img2 img {
-    height:175px;
+    height:150px;
     width:100%;
     border-radius: 30%;
 }
@@ -420,14 +458,14 @@ h2 {
     }
 
     .img1 img {
-        height:200px;
+        height:150px;
         width:100%;
         border-radius: 30%;
         margin-left:30px;
     }
 
     .img2 img {
-        height:200px;
+        height:150px;
         width:100%;
         border-radius: 30%;
         margin-left:50px;
@@ -437,14 +475,28 @@ h2 {
         margin-top: 20px;
     }
 
+    #res {
+        font-size:15px;
+        grid-column-start: 3;
+        grid-column-end: 3;
+    }
+
     #nav {
-        font-size:20px;
+        font-size:15px;
         padding:10px;
+        grid-column-start: 4;
+        grid-column-end: 4;
     }
 
     #nav2 {
-        font-size:20px;
-        padding:10px;
+        font-size:15px;
+        padding-right:20px;
+        grid-column-start: 5;
+        grid-column-end: 5;
+    }
+
+    #link-2 {
+        margin-top:-12px;
     }
 }
 

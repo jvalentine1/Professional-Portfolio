@@ -192,21 +192,26 @@ $("#pro-3").on("click", function() {
 });
 
 $("#pro-4").on("click", function() {
-    window.location.href='https://jvalentine1.github.io/unit-4-game/';
+    window.location.href='https://jvalentine1.github.io/project-1-repo/';
 });
 
 $(".pro-1").on("click", function() {
-    window.location.href='https://jvalentine1.github.io/GifTastic/';
+    window.location.href='https://github.com/jvalentine1/GifTastic';
 });
 
 $(".pro-2").on("click", function() {
-    window.location.href='https://jvalentine1.github.io/TriviaGame/';
+    window.location.href='https://github.com/jvalentine1/TriviaGame';
 });
 
 $(".pro-3").on("click", function() {
-    window.location.href='https://jvalentine1.github.io/word-guess-game/';
+    window.location.href='https://github.com/jvalentine1/word-guess-game';
 });
 
 $(".pro-4").on("click", function() {
-    window.location.href='https://jvalentine1.github.io/unit-4-game/';
+    window.location.href='https://github.com/jvalentine1/project-1-repo';
 });
+
+// $("#link-1").on("click", function(e) {
+//     e.preventDefault();
+//     $("#link-1").attr("href", "https://github.com/jvalentine1")
+// })

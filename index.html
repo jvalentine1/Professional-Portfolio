@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jacob-Valentine</title>
     <link rel="stylesheet" text="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" text="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.4.0.js"
         integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
@@ -30,6 +31,9 @@
     <section class="about-me">
         <a name="about"></a>
         <div class="nav" id="myHeader">
+            <a onclick="window.location.href = 'https://github.com/jvalentine1';" class="fa fa-github" id="link-1"></a>
+            <a onclick="window.location.href = 'https://www.linkedin.com/in/jacob-valentine-b84335180/';" class="fa fa-linkedin" id="link-2"></a>
+            <a onclick="window.location.href = 'https://www.slideshare.net/slideshow/embed_code/key/zBHjxXTGHy455W';" id="res">Resume</a>
             <a id="nav">About</a>
             <a id="nav2" href="#port-p">Portfolio</a>
         </div>
@@ -37,12 +41,14 @@
             <img id="my-image"
                 src="https://media.licdn.com/dms/image/C4E03AQEvd6kkzcE3UA/profile-displayphoto-shrink_200_200/0?e=1560988800&v=beta&t=R1D8mUofSKOuJSohXQNGseasta8kHZsucoyIKmdnuNE"
                 alt="...">
-                <div class="icons-left">
-                        <img id="icon-3" src="https://static.thenounproject.com/png/62495-200.png" alt="...">
-                        <p class="tag">Detail Oriented</p>
-                    </div>
+            <div class="icons-left">
+                <img id="icon-3" src="https://static.thenounproject.com/png/62495-200.png" alt="...">
+                <p class="tag">Detail Oriented</p>
+            </div>
             <div class="icons">
-                <img id="icon-1" src="https://cdn0.iconfinder.com/data/icons/thin-communication-messaging/57/thin-038_comment_chat_message-512.png" alt="...">
+                <img id="icon-1"
+                    src="https://cdn0.iconfinder.com/data/icons/thin-communication-messaging/57/thin-038_comment_chat_message-512.png"
+                    alt="...">
                 <p class="tag">Stong Interpersonal Communication</p>
             </div>
             <div class="icons-right">
@@ -52,7 +58,8 @@
         </div>
         <div class="bio-host bio-host-none">
             <p>I am a Full-Stack Web Developer with the mind of a programmer, and the heart of a marketer. Understanding
-                client’s business goals and creating a customized experience is what drives me. Being a lifelong musician has
+                client’s business goals and creating a customized experience is what drives me. Being a lifelong
+                musician has
                 given me the unique perspective to connect functionality and marketability.
             </p>
             <p>Let’s make your brand sing!</p>
@@ -60,58 +67,67 @@
     </section>
     <section class="portfolio" id="port-p">
         <div class="port-host bio-host-none">
-        <div class="top-row">
-            <div class="img1" id="pro-1">
-                    <img src="https://townsquare.media/site/442/files/2016/03/o-THEATER-SEATS-facebook.jpg" alt="API Search">
-            </div>
-            <div class="img2" id="pro-2">
-                    <img src="https://cdn.britannica.com/s:500x350/17/83817-004-C5DB59F8.jpg" alt="Trivia Game">
-            </div>
-        </div>
-        <div class="top-row-text">
-            <div class="text1 pro-1">
-                <p class="port-title">Gif API Search</p>
-                <br>
-                <p class="port-text">
-                    This page demonstrates the utilization of an API via Ajax
-                </p>
-            </div>
-            <div class="text2 pro-2">
-                <p class="port-title">Mt. Everest Trivia</p>
-                <br>
-                <p class="port-text">
-                    This trivia game demonstrates a combined jquery and javascript logic for functionality and styling
-                </p>
-            </div>
-        </div>
-        <div class="top-row" id="bottom-row">
-                <div class="img1" id="pro-3">
-                        <img src="https://blog.csiro.au/wp-content/uploads/2018/08/file-20180822-149484-cs44toreduced.jpg" alt="Hangman Game">
+            <div class="top-row">
+                <div class="img1" id="pro-1">
+                    <img src="https://townsquare.media/site/442/files/2016/03/o-THEATER-SEATS-facebook.jpg"
+                        alt="API Search">
                 </div>
-                <div class="img2" id="pro-4">
-                        <img src="https://goop.com/wp-content/uploads/2016/11/Stocksy_txp05b96a53aaF100_Medium_1035744.jpg" alt="Crystal Game">
+                <div class="img2" id="pro-2">
+                    <img src="https://cdn.britannica.com/s:500x350/17/83817-004-C5DB59F8.jpg" alt="Trivia Game">
                 </div>
             </div>
             <div class="top-row-text">
-                    <div class="text1 pro-3">
-                        <p class="port-title">Hangman</p>
-                        <br>
-                        <p class="port-text">
-                            This word guess game uses plain javascript for the logic and custom css only
-                        </p>
-                    </div>
-                    <div class="text2 pro-4">
-                        <p class="port-title">Crystal Collector</p>
-                        <br>
-                        <p class="port-text">
-                                This game has javascript and jquery logic and the use of the bootstrap styling library
-                        </p>
-                    </div>
+                <div class="text1 pro-1">
+                    <p class="port-title">Gif API Search</p>
+                    <br>
+                    <p class="port-text">
+                        This page demonstrates the utilization of an API via Ajax
+                    </p>
+                    <br>
+                    <p>Click Here To View Code</p>
+                </div>
+                <div class="text2 pro-2">
+                    <p class="port-title">Mt. Everest Trivia</p>
+                    <br>
+                    <p class="port-text">
+                        This trivia game demonstrates a combined jquery and javascript logic 
+                    </p><br>
+                    <p>Click Here To View Code</p>
                 </div>
             </div>
+            <div class="top-row" id="bottom-row">
+                <div class="img1" id="pro-3">
+                    <img src="https://blog.csiro.au/wp-content/uploads/2018/08/file-20180822-149484-cs44toreduced.jpg"
+                        alt="Hangman Game">
+                </div>
+                <div class="img2" id="pro-4">
+                    <img src="https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/cloudy-sky.jpg?itok=FDxeE-I5"
+                        alt="Mood Quotes">
+                </div>
+            </div>
+            <div class="top-row-text">
+                <div class="text1 pro-3">
+                    <p class="port-title">Hangman</p>
+                    <br>
+                    <p class="port-text">
+                        This word guess game uses plain javascript for the logic and custom css
+                    </p>
+                    <br>
+                    <p>Click Here To View Code</p>
+                </div>
+                <div class="text2 pro-4">
+                    <p class="port-title">Mood Quotes</p>
+                    <br>
+                    <p class="port-text">
+                        This App utilizes four API's to generate a fun and practical experience for the user.
+                    </p>
+                    <br>
+                    <p>Click Here To View Code</p>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 <script type="text/javascript" src="assets/javascript/port.js"></script>
 
 </html>
-
